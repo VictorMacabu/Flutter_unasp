@@ -8,13 +8,18 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
         home: Scaffold(
-      backgroundColor: Colors.blue,
-      body: SafeArea(
-        child: Container(
-            child: CircleAvatar(
-          backgroundImage: AssetImage('images/teste.jpg'),
-        )),
-      ),
-    ));
+            backgroundColor: Colors.teal,
+            body: SafeArea(
+                child: Container(
+                    child: Column(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: <Widget>[
+                CircleAvatar(backgroundImage: AssetImage('images/joazinho.jpg')),
+                Text(
+                  'Joãozinho Smith',
+                  style: TextStyle(fontSize: 40.0, fontFamily: 'Pacifico', color: Colors.white, fontWeight: FontWeight.bold),
+                )
+              ],
+            )))));
   }
 }
