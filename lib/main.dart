@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
                     child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: <Widget>[
-                CircleAvatar(backgroundImage: AssetImage('images/joazinho.jpg')),
+                CircleAvatar(backgroundImage: AssetImage('images/teste.jpg')),
                 Text(
                   'Joãozinho Smith',
                   style: TextStyle(fontSize: 40.0, fontFamily: 'Pacifico', color: Colors.white, fontWeight: FontWeight.bold),
